@@ -9,5 +9,13 @@
       "min_app_build": 1,
       "title": "English, Hindi and Mizo"
     }
+  ],
+  "spelling": [
+    {
+      "lang": "nnp",
+      "version": 1,
+      "url": "spelling/nnp.json",
+      "title": "Wancho spelling list (Otsao Baibel)"
+    }
   ]
 }

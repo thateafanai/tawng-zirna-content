@@ -13,6 +13,13 @@ Published at <https://thateafanai.github.io/tawng-zirna-content/> (GitHub Pages)
 | `index.json` | The list of packs and their versions. The app reads this first. |
 | `packs/core.json` | English, Hindi and Mizo starter content (pack `core`). |
 | `packs/community-<code>.json` | Later: approved community words for one language, e.g. `community-nnp` (Wancho). Only learners of that language download it. |
+| `spelling/nnp.json` | Wancho spelling list for typing suggestions: 24,073 words with how often each is used, from the Otsao Baibel (Bible Society of India, 2012). Words only, never verses; names left out. Only Wancho learners download it. |
+
+## Spelling lists
+
+Made on the computer with the app's `tool/make_spelling_list.py` (see the
+instructions at the top of that file). To update one, run it with
+`--version` raised by 1, raise the `version` in `index.json` too, check, push.
 
 ## Publishing an update
 
