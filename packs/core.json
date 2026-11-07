@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "pack": "core",
+  "version": 1,
+  "min_app_build": 1,
+  "languages": [
+    { "code": "en", "name": "English", "native_name": "English", "tts_locale": "en-IN" },
+    { "code": "hi", "name": "Hindi", "native_name": "हिन्दी", "tts_locale": "hi-IN" },
+    { "code": "lus", "name": "Mizo", "native_name": "Mizo ṭawng" }
+  ],
+  "entries": [
+    {
+      "uid": "voc-0001", "category": "vocabulary", "topic": "Greetings", "pos": "interjection",
+      "translations": {
+        "en": { "text": "Hello", "example": "Hello, how are you?" },
+        "hi": { "text": "नमस्ते", "pronunciation": "na-mas-tay" },
+        "lus": { "text": "Chibai", "example": "Chibai, i dam em?", "status": "draft" }
+      }
+    },
+    {
+      "uid": "voc-0002", "category": "vocabulary", "topic": "Greetings", "pos": "phrase",
+      "translations": {
+        "en": { "text": "Thank you" },
+        "hi": { "text": "धन्यवाद", "pronunciation": "dhan-ya-vaad" },
+        "lus": { "text": "Ka lawm e", "status": "draft" }
+      }
+    },
+    {
+      "uid": "voc-0003", "category": "vocabulary", "topic": "Daily life", "pos": "noun",
+      "translations": {
+        "en": { "text": "Water", "example": "Please give me water." },
+        "hi": { "text": "पानी", "pronunciation": "paa-nee" },
+        "lus": { "text": "Tui", "example": "Tui min pe rawh.", "status": "draft" }
+      }
+    },
+    {
+      "uid": "voc-0004", "category": "vocabulary", "topic": "Daily life", "pos": "noun",
+      "translations": {
+        "en": { "text": "House" },
+        "hi": { "text": "घर", "pronunciation": "ghar" },
+        "lus": { "text": "In", "status": "draft" }
+      }
+    },
+    {
+      "uid": "voc-0005", "category": "vocabulary", "topic": "Daily life", "pos": "noun",
+      "translations": {
+        "en": { "text": "Book" },
+        "hi": { "text": "किताब", "pronunciation": "ki-taab" },
+        "lus": { "text": "Lehkhabu", "status": "draft" }
+      }
+    },
+    {
+      "uid": "voc-0006", "category": "vocabulary", "topic": "Learning", "pos": "noun",
+      "translations": {
+        "en": { "text": "Language" },
+        "hi": { "text": "भाषा", "pronunciation": "bhaa-shaa" },
+        "lus": { "text": "Ṭawng", "status": "draft" }
+      }
+    },
+    {
+      "uid": "voc-0007", "category": "vocabulary", "topic": "Describing", "pos": "adjective",
+      "translations": {
+        "en": { "text": "Good" },
+        "hi": { "text": "अच्छा", "pronunciation": "ach-chhaa" },
+        "lus": { "text": "Ṭha", "status": "draft" }
+      }
+    },
+    {
+      "uid": "voc-0008", "category": "vocabulary", "topic": "Church and faith", "pos": "noun",
+      "translations": {
+        "en": { "text": "Love" },
+        "hi": { "text": "प्रेम", "pronunciation": "prem" },
+        "lus": { "text": "Hmangaihna", "status": "draft" }
+      }
+    },
+    {
+      "uid": "conv-0001", "category": "conversation", "topic": "Greetings",
+      "translations": {
+        "en": { "text": "How are you?" },
+        "hi": { "text": "आप कैसे हैं?", "pronunciation": "aap kai-se hain" },
+        "lus": { "text": "I dam em?", "status": "draft" }
+      }
+    },
+    {
+      "uid": "conv-0002", "category": "conversation", "topic": "Greetings",
+      "translations": {
+        "en": { "text": "I am well." },
+        "hi": { "text": "मैं ठीक हूँ।", "pronunciation": "main theek hoon" },
+        "lus": { "text": "Ka dam e.", "status": "draft" }
+      }
+    },
+    {
+      "uid": "conv-0003", "category": "conversation", "topic": "Introductions",
+      "translations": {
+        "en": { "text": "What is your name?" },
+        "hi": { "text": "आपका नाम क्या है?", "pronunciation": "aap-kaa naam kyaa hai" },
+        "lus": { "text": "I hming eng nge?", "status": "draft" }
+      }
+    },
+    {
+      "uid": "conv-0004", "category": "conversation", "topic": "Introductions",
+      "translations": {
+        "en": { "text": "My name is John." },
+        "hi": { "text": "मेरा नाम जॉन है।", "pronunciation": "me-raa naam john hai" },
+        "lus": { "text": "Ka hming chu John a ni.", "status": "draft" }
+      }
+    },
+    {
+      "uid": "idm-0001", "category": "idiom",
+      "translations": {
+        "en": { "text": "A piece of cake", "meaning": "Something very easy", "example": "The test was a piece of cake." },
+        "hi": { "text": "बाएँ हाथ का खेल", "meaning": "बहुत आसान काम" },
+        "lus": { "text": "Awlsam tak", "status": "draft" }
+      }
+    },
+    {
+      "uid": "idm-0002", "category": "idiom",
+      "translations": {
+        "en": { "text": "Break the ice", "meaning": "To make people feel relaxed when they first meet", "example": "He told a joke to break the ice." },
+        "hi": { "text": "झिझक दूर करना" },
+        "lus": { "text": "Inbiakna ṭan", "status": "draft" }
+      }
+    },
+    {
+      "uid": "ow-0001", "category": "one_word",
+      "translations": {
+        "en": { "text": "Bilingual", "meaning": "A person who speaks two languages" },
+        "hi": { "text": "द्विभाषी" },
+        "lus": { "text": "Ṭawng pahnih thiam", "status": "draft" }
+      }
+    },
+    {
+      "uid": "ow-0002", "category": "one_word",
+      "translations": {
+        "en": { "text": "Polyglot", "meaning": "A person who knows many languages" },
+        "hi": { "text": "बहुभाषी" },
+        "lus": { "text": "Ṭawng tam tak thiam", "status": "draft" }
+      }
+    },
+    {
+      "uid": "ow-0003", "category": "one_word",
+      "translations": {
+        "en": { "text": "Omnipotent", "meaning": "Having unlimited power" },
+        "hi": { "text": "सर्वशक्तिमान" },
+        "lus": { "text": "Engkim tithei", "status": "draft" }
+      }
+    }
+  ],
+  "deleted": []
+}

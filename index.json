@@ -1,0 +1,13 @@
+{
+  "format": "tawng-zirna-index",
+  "version": 1,
+  "packs": [
+    {
+      "id": "core",
+      "version": 1,
+      "url": "packs/core.json",
+      "min_app_build": 1,
+      "title": "English, Hindi and Mizo"
+    }
+  ]
+}
