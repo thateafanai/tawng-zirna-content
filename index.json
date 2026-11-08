@@ -4,10 +4,17 @@
   "packs": [
     {
       "id": "core",
-      "version": 1,
+      "version": 3,
       "url": "packs/core.json",
-      "min_app_build": 1,
-      "title": "English, Hindi and Mizo"
+      "min_app_build": 2,
+      "title": "Word bank: English, Hindi and Mizo"
+    },
+    {
+      "id": "course-year",
+      "version": 1,
+      "url": "packs/course-year.json",
+      "min_app_build": 2,
+      "title": "Language in a Year"
     }
   ],
   "spelling": [
