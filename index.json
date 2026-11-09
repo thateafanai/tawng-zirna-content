@@ -4,7 +4,7 @@
   "packs": [
     {
       "id": "core",
-      "version": 3,
+      "version": 4,
       "url": "packs/core.json",
       "min_app_build": 2,
       "title": "Word bank: English, Hindi and Mizo"
